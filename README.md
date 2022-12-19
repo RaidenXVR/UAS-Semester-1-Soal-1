@@ -5,7 +5,9 @@
 <br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
-
+Program ini adalah program untuk mengubah baris matriks menjadi kolom, dan kolom matriks menjadi baris. 
+<br>Hal ini biasa disebut Transpose Matriks pada matematika. 
+<br>Berikut adalah source code dan outputnya.
 ## Source Code
 
 ```
