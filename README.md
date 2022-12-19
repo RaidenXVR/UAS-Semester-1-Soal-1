@@ -24,12 +24,15 @@ int main(){
 void transpose() {
 	//initiation
 	int kol, bar;
+	cout<<"Masukan Jumlah Baris: ";
 	cin>>bar;
+	cout<<"Masukan Jumlah Kolom: ";
 	cin>>kol;
 	int mat[bar][kol];
 	//input
 	for (int i=0;i<bar;i++){
 		for (int j=0;j<kol;j++){
+			cout<<"Masukan Data: ";
 			cin>>mat[i][j];
 		}
 	}
@@ -37,14 +40,16 @@ void transpose() {
 	int arr[kol][bar];
 	
 	//output
+	cout<<"Matriks Sebelum Diubah: ";
 	for (int i=0;i<bar;i++){
 		cout<<endl;
 		for (int j=0;j<kol;j++){
 			cout<<mat[i][j]<<" ";
 		}
 	}
+	cout<<endl<<endl;
 	//transpose output
-	cout<<endl;
+	cout<<"Matriks Sesudah Diubah: "<<endl;
 	for (int i=0;i<kol;i++){
 		cout<<endl;
 		for (int j=0;j<bar;j++){
@@ -53,7 +58,6 @@ void transpose() {
 	}
 	
 }
-
 
 ```
 
