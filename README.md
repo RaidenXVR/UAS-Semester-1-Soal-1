@@ -38,9 +38,6 @@ void transpose() {
 			cin>>mat[i][j];
 		}
 	}
-	//temporary array
-	int arr[kol][bar];
-	
 	//output
 	cout<<"Matriks Sebelum Diubah: ";
 	for (int i=0;i<bar;i++){
