@@ -62,4 +62,5 @@ void transpose() {
 ```
 
 ## Output
-
+<p> Output Dari Program</p>
+<img src="https://github.com/RaidenXVR/Ujian-Akhir-Semester/blob/main/Screenshot%20(813).png">
